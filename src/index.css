@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+
+
+nav {
+  width: 100%;
+  height: 100px;
+  background: rgb(217, 10, 10);
+  background: radial-gradient(circle, rgba(217, 10, 10, 1) 0%, rgba(232, 133, 12, 1) 78%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+nav span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+
+}
+
+nav span h1 {
+  color: black;
+}
+
+
+nav img {
+
+  width: 50%;
+  height: 80%;
+}
+
+nav ul {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li button {
+  background-color: transparent;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+nav ul li button:hover {
+  /* border: 1px solid white; */
+  background-color: white;
+}
+
+nav ul li {
+  list-style: none;
+
+}
+
+#cart-btn {
+  background-color: transparent;
+  width: 100px;
+  height: 40px;
+  border: 4px solid white;
+  border-radius: 15px;
+
+}
+
+#cart-btn:hover {
+
+  border: 3px solid black;
+}
+
+#cart-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+#cart-btn a:hover {
+  color: black;
+}
+
+.hero-sec {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-sec {
+  width: 40%;
+  height: 350px;
+}
+
+.img-sec img {
+  height: 100%;
+  width: 100%;
+}
+
+.txt-sec {
+  width: 60%;
+  height: 350px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background: rgb(222, 243, 66);
+  background: linear-gradient(45deg, rgba(222, 243, 66, 1) 0%, rgba(232, 12, 42, 1) 78%);
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: beige;
+}
+
+.products {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: white;
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+}
+
+.card:hover {
+  transition: linear;
+  transition-duration: .5s;
+  transform: scale(90%)
+}
+
+.imgpt {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.imgpt img {
+  width: 70%;
+  height: 100%;
+
+}
+
+.txtpt {
+  padding-left: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+}
+
+.txtpt span {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.txtpt button {
+  width: 50%;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid red;
+  color: red;
+}
+
+.txtpt button:hover {
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer span {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+footer span button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 25px;
+  border: 1px solid black;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+footer span button:hover {
+  color: white;
+  background-color: red;
+}
+
+.cart-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: beige;
+
+
+}
+
+
+.cart-card {
+  background-color: white;
+  margin: 10px;
+  width: 80%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px;
+}
+
+.txt {
+  display: flex;
+  width: 60%;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.txt button {
+  width: 50%;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid red;
+  color: red;
+}
+
+.txt button:hover {
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+}
+
+.img-pt {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.img-pt img {
+  width: 50%;
+  height: 70%;
+}
+
+.bill-pt {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.bill-pt button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.cart-items {
+  width: 100%;
+  min-height: 300px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headers {
+  color: red;
+  text-transform: uppercase;
+}
+
+.titles {
+  font-size: 20px;
+}
+
+#qt-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+
+}
+
+
+
+
+@media(max-width:768px) {
+  nav ul {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-between;
+    padding: 2%;
+  }
+
+  nav span {
+    width: 50%;
+  }
+
+  .hero-sec {
+    flex-direction: column;
+  }
+
+  .img-sec {
+    width: 98%;
+    height: 300px;
+
+  }
+
+  .txt-sec {
+    width: 98%;
+    height: 200px;
+
+  }
+
+  .products {
+    flex-direction: column;
+  }
+
+  .imgpt img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .cart-card {
+    width: 95%;
+  }
+
+  .img-pt img {
+    width: 65%;
+    height: 70%;
+  }
+
+  .cart-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart-items {
+    width: 90%;
+  }
+
+  .titles {
+    font-size: 18px;
+  }
+
+  .txtpt span {
+    width: 80%;
+  }
+
+  footer span button {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+  }
+
+
+}
+
+@media(max-width:1000px) {
+  nav ul {
+    width: 30%;
+  }
+
+  nav ul li button {
+    width: 70px;
+    height: 35px;
+    font-size: 10px;
+  }
+}
+
+@media(max-width:1350px) {
+  nav ul {
+    width: 40%;
+  }
+
+  nav ul li button {
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
